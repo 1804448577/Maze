@@ -46,10 +46,10 @@ void initDisplay() {
 	for( i = 1; i <= tempH; ++i) {
 		for( j = 1; j <= tempW; ++j) {
 			if(i%2 == 1 && j%2 == 1) {
-				maze[i][j] = 1;
+				maze[i][j] = UNCHEACK;
 			}
 			else {
-				maze[i][j] = 2;
+				maze[i][j] = BARRIER;
 			}
 		}
 	}
